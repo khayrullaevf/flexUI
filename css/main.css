@@ -113,7 +113,7 @@ header {
   justify-content: center;
   align-items: center;
   column-gap: 6px;
-  color: var(--primary-050, #f0fdf4);
+  color: var(--primary-050);
   transition: 0.3s;
 }
 .navbar__signup {
@@ -125,7 +125,7 @@ header {
   justify-content: center;
   align-items: center;
   column-gap: 6px;
-  color: var(--primary-050, #f0fdf4);
+  color: var(--primary-0);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -507,7 +507,7 @@ header {
   line-height: 18px;
   border: none;
   cursor: pointer;
-  color: var(--primary-500, #22c55e);
+  color: var(--primary--green);
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -615,7 +615,7 @@ header {
   line-height: 18px;
   border: none;
   cursor: pointer;
-  color: var(--primary-500, #22c55e);
+  color: var(--primary--green);
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -693,7 +693,8 @@ header {
   line-height: 18px;
   border: none;
   cursor: pointer;
-  color: var(--primary-500, #22c55e);
+  color: var(--primary--green
+  );
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -798,7 +799,7 @@ header {
   line-height: 18px;
   border: none;
   cursor: pointer;
-  color: var(--primary-500, #22c55e);
+  color: var(--primary--green);
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -875,13 +876,14 @@ header {
   margin-top: 16px;
 }
 
+
 .details-card__subtitle {
   color: var(--gray-400);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  color: var(--gray-400, #8896ab);
+  color: var(--gray-400);
   max-width: 359px;
   width: 100%;
 }
@@ -909,7 +911,7 @@ header {
   line-height: 18px;
   border: none;
   cursor: pointer;
-  color: var(--primary-500, #22c55e);
+  color: var(--primary--green);
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -973,8 +975,8 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
-  border: 1px solid var(--gray-200, #d5dae1);
-  background: var(--white-900, #fff);
+  border: 1px solid var(--gray--200);
+  background: var(--primary--color--white);
   box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
   cursor: pointer;
 }
