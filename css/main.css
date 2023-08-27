@@ -887,7 +887,7 @@ header {
   padding-bottom: 88px;
 }
 
-.application-header__button {
+.application__header-button {
   height: 22px;
   padding: 2px 8px;
   justify-content: center;
@@ -908,7 +908,7 @@ header {
   line-height: 18px;
 }
 
-.application-header__button:hover {
+.application__header-button:hover {
   background: var(--button--bg--green);
   color: var(--primary--color--white);
   transition: 0.3s;
@@ -935,7 +935,7 @@ header {
   line-height: 30px;
   margin-top: 40px;
 }
-.application-learn__more {
+.application__learn-more{
   display: inline-flex;
   height: 56px;
   padding: 16px 28px;
@@ -952,13 +952,13 @@ header {
   line-height: 28px;
   cursor: pointer;
 }
-.application-learn__more:hover {
+.application__learn-more:hover {
   background-color: var(--primary--color--white);
   border: 1px solid var(--button--bg--green);
   color: var(--button--bg--green);
   transition: 0.3s;
 }
-.application-about__us {
+.application__about-us {
   display: inline-flex;
   height: 56px;
   padding: 16px 28px;
